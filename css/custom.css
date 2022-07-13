@@ -419,6 +419,11 @@ NO MORE TABLES!! ;)
 		content: "Description:";
 		font-weight: bold;
 	}
+
+	.circular_image {
+		padding-left: 0px;
+    	margin-left: 120px;
+	}
 }
 
 
@@ -484,5 +489,19 @@ fieldset[disabled] .btn-twitch.active {
   width:100%;
 }
 
+
+.circular_image_logo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	
+	/*for demo*/
+	display:inline-block;
+	vertical-align:middle;
+  }
+  .circular_image_logo img{
+	width:100%;
+  }
 
 
