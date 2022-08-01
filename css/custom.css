@@ -504,4 +504,19 @@ fieldset[disabled] .btn-twitch.active {
 	width:100%;
   }
 
+.copyright-text {
+	text-align: right;
+}
 
+.copyright-text a 
+{
+	text-decoration: none;
+	font-weight: normal;
+	color: #bac1c8;
+}
+
+.copyright-text a:hover
+{
+  color:#bac1c8;
+  text-decoration:none;
+}
