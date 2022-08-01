@@ -8,9 +8,9 @@ http://www.andreagalanti.it
 
 $(window).load(function() { 
 	//Preloader 
-	$('#status').delay(300).fadeOut(); 
-	$('#preloader').delay(300).fadeOut('slow');
-	$('body').delay(550).css({'overflow':'visible'});
+	$('#status').delay(100).fadeOut(); 
+	$('#preloader').delay(100).fadeOut('slow');
+	$('body').delay(150).css({'overflow':'visible'});
 })
 
 $(document).ready(function() {
